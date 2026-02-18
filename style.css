@@ -1,0 +1,74 @@
+body{
+  margin:0;
+  font-family: Arial;
+  background: linear-gradient(135deg,#ff6ec4,#7873f5,#42e695,#f9ca24);
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.app{
+  width:420px;
+}
+
+.app-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  color:white;
+  margin-bottom:10px;
+}
+
+.card{
+  background:white;
+  padding:12px;
+  border-radius:12px;
+  margin-bottom:10px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.2);
+}
+
+input,select{
+  padding:8px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  margin:3px;
+}
+
+button{
+  background:linear-gradient(45deg,#ff512f,#dd2476);
+  color:white;
+  border:none;
+  padding:8px 10px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+button:hover{
+  opacity:0.9;
+}
+
+.stats{
+  display:flex;
+  justify-content:space-between;
+}
+
+ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+li{
+  background:#f1f1f1;
+  margin-bottom:6px;
+  padding:8px;
+  border-radius:8px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.completed{
+  text-decoration:line-through;
+  color:gray;
+}

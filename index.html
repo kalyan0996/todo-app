@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pro To-Do • Professional Task Manager</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+
+    <header class="app-header">
+      <h1>🌈 Pro To-Do</h1>
+      <button id="themeToggle">🌙</button>
+    </header>
+
+    <!-- Add Task -->
+    <section class="card">
+      <input id="taskInput" type="text" placeholder="Enter task..." />
+      <input id="timeInput" type="time" />
+      <select id="priorityInput">
+        <option value="low">Low</option>
+        <option value="medium" selected>Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button id="addBtn">Add Task</button>
+    </section>
+
+    <!-- Stats -->
+    <section class="card stats">
+      <div>Total: <b id="total">0</b></div>
+      <div>Completed: <b id="completed">0</b></div>
+      <div>Pending: <b id="pending">0</b></div>
+    </section>
+
+    <!-- Task List -->
+    <section class="card">
+      <ul id="taskList"></ul>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

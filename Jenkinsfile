@@ -1,6 +1,5 @@
 pipeline {
-    agent { label 'vinod' }
-
+    agent { label 'build-agent' }
     environment {
         dockerhubuser = 'your-dockerhub-username'
         dockerhubpass = 'your-dockerhub-password'
